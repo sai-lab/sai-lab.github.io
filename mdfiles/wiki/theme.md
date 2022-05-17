@@ -70,7 +70,7 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 ## 脆弱性情報などを利用した​セキュリティシステム
 
-スライドを [こちら](../static/s20g470-IntroResearch.pdf) で公開しています．  
+スライドを [こちら](../../public_material/s20g470-IntroResearch.pdf) で公開しています．  
 
 <img src="../../images/theme/security_system.png" alt="security_system" width="50%">
 <img src="../../images/theme/zeroday_attack.png" alt="zeroday_attack" width="50%">
