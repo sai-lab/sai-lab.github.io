@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: ${{ env.REPONAME }}-${{ env.DATE }}-${{ env.BRANCH }}
-          path: docs/*
+          path: docs
