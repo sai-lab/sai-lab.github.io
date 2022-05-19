@@ -1,0 +1,40 @@
+name: build
+on:
+  push:
+    branches:
+      - actions/*
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: "npm"
+
+      - name: install dependecies
+        run: npm install
+
+      - name: convert
+        run: npm start
+
+      - name: git settings
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name  "GitHub Action"
+      
+      - name: Count Changes
+        id: changes
+        run: |
+          git add -N .
+          echo "::set-output name=count::$(git diff --name-only | wc -l)"
+
+      - name: Add Commit
+        run: |
+          git commit -m "WebPage Changes" -a
+          git push
+        if: steps.changes.outputs.count > 0

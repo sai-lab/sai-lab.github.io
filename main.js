@@ -303,7 +303,7 @@ function walkDir(dir, exportDir, depth) {
 
 // main
 const mdfilesDirName = 'mdfiles';
-const exportHtmlDirName = 'html';
+const exportHtmlDirName = 'docs';
 function main() {
   var mdfilesDir = path.join(__dirname, mdfilesDirName);
   var exportHtmlDir = path.join(__dirname, exportHtmlDirName);
