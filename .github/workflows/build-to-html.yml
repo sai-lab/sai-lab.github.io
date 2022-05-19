@@ -2,38 +2,37 @@ name: build
 on:
   push:
     branches:
-    - main
-    - actions/*
+      - main
+      - actions/*
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 14
-        cache: 'npm'
-        
-    - name: install dependecies
-      run: npm install
-      
-    - name: convert
-      run: npm start
-    
-    - name: git settings
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name  "GitHub Action"
-    
-    - name: Add Commit
-      run: |
-        git add .
-        git commit -m "WebPage Changes" -a
-      
-    - name: Push
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-      
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: "npm"
+
+      - name: install dependecies
+        run: npm install
+
+      - name: convert
+        run: npm start
+
+      - name: git settings
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name  "GitHub Action"
+
+      - name: Add Commit
+        run: |
+          git add .
+          git commit -m "WebPage Changes" -a
+
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
