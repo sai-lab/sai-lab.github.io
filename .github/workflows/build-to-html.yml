@@ -30,8 +30,4 @@ jobs:
         run: |
           git add .
           git commit -m "WebPage Changes" -a
-
-      - name: Push
-        uses: ad-m/github-push-action
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git push
