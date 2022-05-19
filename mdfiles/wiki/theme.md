@@ -23,11 +23,11 @@
 
 現在行われている研究や、以前行われていた研究の概要を解説しています。  
 画像をクリックすると拡大表示されます。  
-一部のスライドは [こちら](../static/index.md) で公開しています。   
+一部のスライドは [こちら](static/index.md) で公開しています。   
 
 ## クラウドに適した分散Webシステム
 
-<img src="../../images/theme/distributed-web-system.png" alt="クラウドに適した分散Webシステム" width="50%">
+<img src="../images/theme/distributed-web-system.png" alt="クラウドに適した分散Webシステム" width="50%">
 
 クラウドとは、インターネットを介してどこからでも利用できるサービスのことです。  
 このクラウド上に仮想のWebサーバを構築し、アクセスを分散させる方法があります。  
@@ -37,7 +37,7 @@
 
 ## NAP-Webを用いた優先アクセス機構
 
-<img src="../../images/theme/priority-access-system.png" alt="優先アクセス機構の評価" width="50%">
+<img src="../images/theme/priority-access-system.png" alt="優先アクセス機構の評価" width="50%">
 
 NAP-Webは、Webページへのアクセスが混み合っている時に利用者に待ち時間を書いた仮想的な整理券を配布します。  
 整理券を持って再度アクセスした利用者については、必ずアクセスを受け付けます。  
@@ -70,12 +70,12 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 ## 脆弱性情報などを利用した​セキュリティシステム
 
-スライドを [こちら](../../public_material/s20g470-IntroResearch.pdf) で公開しています．  
+スライドを [こちら](../public_material/s20g470-IntroResearch.pdf) で公開しています．  
 
-<img src="../../images/theme/security_system.png" alt="security_system" width="50%">
-<img src="../../images/theme/zeroday_attack.png" alt="zeroday_attack" width="50%">
-<img src="../../images/theme/introduction.png" alt="introduction" width="50%">
-<img src="../../images/theme/target.png" alt="target" width="50%">
+<img src="../images/theme/security_system.png" alt="security_system" width="50%">
+<img src="../images/theme/zeroday_attack.png" alt="zeroday_attack" width="50%">
+<img src="../images/theme/introduction.png" alt="introduction" width="50%">
+<img src="../images/theme/target.png" alt="target" width="50%">
 
 近年，脆弱性を利用した攻撃が増えており，それらの攻撃はパッチが配布されるまで対策が難しいです．  
 また，大学などの組織のネットワークで「BYOD」を用いる組織も増えています．  
@@ -93,7 +93,7 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 ## コンテナの隔離を強化するサンドボックス機構
 
-<img src="../../images/theme/runu-system-arch.png" alt="runu-system-arch" width="50%">
+<img src="../images/theme/runu-system-arch.png" alt="runu-system-arch" width="50%">
 
 軽量な仮想化手法として，コンテナ型仮想化が注目されています。  
 昨今では、DockerやKubernetesといったコンテナ型仮想環境を用いてWebサービスを提供するサービスが増加しています。  
@@ -103,7 +103,7 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 ## DNSサービス/DNSキャッシュポイズニング可視化システム
 
-<img src="../../images/theme/vda-ui.png" alt="vda-ui" width="50%">
+<img src="../images/theme/vda-ui.png" alt="vda-ui" width="50%">
 
 DNSを標的とした，あるいは利用した攻撃は数多く存在します．  
 すでに対策は施されていますが，未だに新たな攻撃手法が出ていることも事実です．  
@@ -113,10 +113,10 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 
 ## 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
 
-<img src="../../images/theme/protec-kun_01.png" alt="protec-kun_01" width="50%">
-<img src="../../images/theme/protec-kun_02.png" alt="protec-kun_02" width="50%">
-<img src="../../images/theme/protec-kun_03.png" alt="protec-kun_03" width="50%">
-<img src="../../images/theme/protec-kun_04.png" alt="protec-kun_04" width="50%">
+<img src="../images/theme/protec-kun_01.png" alt="protec-kun_01" width="50%">
+<img src="../images/theme/protec-kun_02.png" alt="protec-kun_02" width="50%">
+<img src="../images/theme/protec-kun_03.png" alt="protec-kun_03" width="50%">
+<img src="../images/theme/protec-kun_04.png" alt="protec-kun_04" width="50%">
 
 サイバー攻撃の増加，高度化に伴い，「手が動く」実践的なセキュリティ人材が不足しています．  
 本研究では，「手が動く」セキュリティ人材を育成することを，目的としています．  
