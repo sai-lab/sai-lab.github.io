@@ -25,9 +25,15 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name  "GitHub Action"
+      
+      - name: Count Changes
+        id: changes
+        run: |
+          git add -N .
+          echo "::set-output name=count::$(git diff --name-only | wc -l)"
 
       - name: Add Commit
         run: |
-          git add .
           git commit -m "WebPage Changes" -a
           git push
+        if: steps.changes.outputs.count > 0
