@@ -2,8 +2,9 @@ name: build
 on:
   push:
     branches:
-      - actions/*
-      - main
+      - '*'
+      - '*/*'
+      - '*/*/*'
 
 jobs:
   build:
