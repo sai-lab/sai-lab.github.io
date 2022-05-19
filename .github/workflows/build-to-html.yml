@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - actions/*
+      - main
 
 jobs:
   build:
