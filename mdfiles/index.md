@@ -19,7 +19,7 @@
 場所は1号棟10F北側のオープンスペースです。  
 計算機システム系の研究室です。  
 現在では主に分散Webシステムやアクセス制御Webシステムの研究開発を行っています。  
-詳しくはサイドメニューから [研究テーマ紹介](./theme.md)をご覧ください。  
+詳しくはサイドメニューから [研究テーマ紹介](./wiki/theme.md)をご覧ください。  
 
 最所先生のWebページは[こちら](http://www.eng.kagawa-u.ac.jp/~sai/)。  
 香川大学によるStaff紹介ページは[こちら](https://www.kagawa-u.ac.jp/kagawa-u_ead/introduction/staff/20697/staff0127/)。  
