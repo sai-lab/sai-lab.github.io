@@ -27,7 +27,7 @@ function makeHtml(data, title, depth) {
     var relativeLink = '../'.repeat(depth);
   
     // read styles
-    var css_href = path.join('./../', relativeLink, 'templates', 'style.css');
+    var css_href = path.join('./', relativeLink, 'templates', 'style.css');
     var style = '<link rel=\"stylesheet\" href=\"' + css_href + '\" type=\"text/css\">';
     // style += readStyles(uri);
 
