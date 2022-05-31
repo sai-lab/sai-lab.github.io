@@ -57,3 +57,6 @@
     <img src="images/desk2.jpeg" alt="作業風景1" width="50%">
     <img src="images/rack2.jpeg" alt="作業風景2" width="50%">
 </div>
+
+<hr>
+<pre>Update by 2022/05/31. </pre>
