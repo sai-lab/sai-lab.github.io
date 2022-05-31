@@ -24,7 +24,7 @@ function Slug(string) {
 function makeHtml(data, title, depth) {
   try {
     // relative link to top directory
-    var relativeLink = './'.repeat(depth);
+    var relativeLink = '../'.repeat(depth);
   
     // read styles
     var css_href = path.join('./', relativeLink, 'templates', 'style.css');
