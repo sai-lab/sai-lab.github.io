@@ -22,19 +22,9 @@ jobs:
       - name: convert
         run: npm start
 
-      - name: git settings
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name  "GitHub Action"
-      
-      - name: Count Changes
-        id: changes
-        run: |
-          git add -N .
-          echo "::set-output name=count::$(git diff --name-only | wc -l)"
-
-      - name: Add Commit
-        run: |
-          git commit -m "WebPage Changes" -a
-          git push
-        if: steps.changes.outputs.count > 0
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
