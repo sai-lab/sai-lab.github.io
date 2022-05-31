@@ -1,6 +1,6 @@
 <nav role="navigation" class="contents_table">
 
-- [x] 目次
+### 目次
 
 [研究室配属](#研究室配属)  
 [研究の進め方](#研究の進め方)  

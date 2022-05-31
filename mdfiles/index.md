@@ -1,10 +1,9 @@
 <nav role="navigation" class="contents_table">
 
-- [x] 目次
+### 目次
 
 [最所研究室](#最所研究室)  
 [ひとこと](#ひとこと)  
-<!-- [NEWS](#news)   -->
 
 </nav>
 
@@ -33,24 +32,6 @@
 # ひとこと
 
 卒修論も一段落しました．  
-
-<!-- # NEWS
-
-[香川大学RSS](https://www.kagawa-u.ac.jp/rss.xml)
-
-- [高松地方気象台と連携協定を締結しました](http://www.kagawa-u.ac.jp/28235/) (2022/03/24 20:17)
-- [香川県主催“第２回かがわ食品ロス削減大賞”大賞（環境森林部長賞）受賞](http://www.kagawa-u.ac.jp/28234/) (2022/03/24 16:05)
-- [香川県主催“第２回かがわ食品ロス削減大賞”優秀賞（たるる賞）受賞](http://www.kagawa-u.ac.jp/28233/) (2022/03/24 15:52)
-- [大学・地域共創プラットフォーム香川（仮称） 設立総会を開催](http://www.kagawa-u.ac.jp/28230/) (2022/03/23 13:39)
-- [香川大学男女共同参画推進室 2021年度女性リーダー育成セミナーダイバーシティ＆インクルージョン推進－大阪大学の取り組みから－](http://www.kagawa-u.ac.jp/202130/) (2022/03/18 10:18)
-
-[創造工学部RSS](http://www.kagawa-u.ac.jp/kagawa-u_ead/rss.xml)  
-
-- [教員公募（情報学基礎分野または情報セキュリティ分野／准教授、講師 または助教）](http://www.kagawa-u.ac.jp/kagawa-u_ead/topics/public/28182/) (2022/03/08 08:25)
-- [教員公募（環境材料化学分野／准教授、講師または助教）](http://www.kagawa-u.ac.jp/kagawa-u_ead/topics/public/28181/) (2022/03/08 08:17)
-- [先端工学研究発表会2022を開催します！](http://www.kagawa-u.ac.jp/kagawa-u_ead/topics/event/2022/) (2022/01/24 07:00)
-- [2022年度入試直前相談会をオンライン上で開催します！](http://www.kagawa-u.ac.jp/kagawa-u_ead/topics/event/24547-2-21/) (2022/01/07 08:53)
-- [高尾英邦教授の研究グループがJournal of Robotics and Mechatronics 誌の「The Best Paper Award 2021」を受賞](http://www.kagawa-u.ac.jp/kagawa-u_ead/topics/research/journal-robotics-and-mechatronics-best-paper-award-2021/) (2021/12/28 08:45) -->
 
 ---
 <div class="at_work">

@@ -1,6 +1,6 @@
 <nav role="navigation" class="contents_table">
 
-- [x] 目次
+### 目次
 
 [学位論文タイトルリスト](#学位論文タイトルリスト)  
 [卒業論文](#卒業論文)  

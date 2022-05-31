@@ -1,6 +1,6 @@
 <nav role="navigation" class="contents_table">
 
-- [x] 目次
+### 目次
 
 [研究室メンバー](#研究室メンバー)  
 [指導教員](#指導教員)  

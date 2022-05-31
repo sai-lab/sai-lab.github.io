@@ -1,6 +1,6 @@
 <nav role="navigation" class="contents_table">
 
-- [x] 目次
+### 目次
 
 [業績リスト](#業績リスト)  
 [論文](#論文)  

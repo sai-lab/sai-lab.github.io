@@ -1,6 +1,6 @@
 <nav role="navigation" class="contents_table">
 
-- [x] 目次
+### 目次
 
 [研究テーマ](#研究テーマ)  
 [クラウドに適した分散Webシステム](#クラウドに適した分散webシステム)  
