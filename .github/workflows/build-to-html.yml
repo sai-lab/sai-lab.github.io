@@ -2,8 +2,9 @@ name: build
 on:
   push:
     branches:
-      - actions/*
-      - main
+      - '*'
+      - '*/*'
+      - '*/*/*'
 
 jobs:
   build:
@@ -22,19 +23,17 @@ jobs:
       - name: convert
         run: npm start
 
-      - name: git settings
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name  "GitHub Action"
-      
-      - name: Count Changes
-        id: changes
-        run: |
-          git add -N .
-          echo "::set-output name=count::$(git diff --name-only | wc -l)"
+      - name: Set BRANCH
+        run: echo "${GITHUB_REF#refs/heads/}" | sed -e 's/\//_/g' -e 's/^/BRANCH=/g' >> $GITHUB_ENV
 
-      - name: Add Commit
-        run: |
-          git commit -m "WebPage Changes" -a
-          git push
-        if: steps.changes.outputs.count > 0
+      - name: Set DATE
+        run: echo "DATE=$(date '+%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+
+      - name: Set Reponame
+        run: echo "$GITHUB_REPOSITORY" | sed -e 's/\//_/g' -e 's/^/REPONAME=/g' >> $GITHUB_ENV
+
+      - name: Upload file Product html(docs).
+        uses: actions/upload-artifact@master
+        with:
+          name: ${{ env.REPONAME }}-${{ env.DATE }}-${{ env.BRANCH }}
+          path: docs

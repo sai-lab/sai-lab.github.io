@@ -152,7 +152,7 @@
 - 田中 孝典
     - [リンク構造ファイルシステムにおける履歴管理インターフェースの試作](http://air.eng.kagawa-u.ac.jp/abstruct/2011/B4/resume2009.pdf)
 - 松浦 正尚
-    - [次回アクセスを保証するWebシステムにおけるアクセススケジューリング機構の改良](http://air.eng.kagawa-u.ac.jp/http://air.eng.kagawa-u.ac.jp/abstruct/2011/B4/saisho_08t282.pdf)
+    - [次回アクセスを保証するWebシステムにおけるアクセススケジューリング機構の改良](http://air.eng.kagawa-u.ac.jp/abstruct/2011/B4/saisho_08t282.pdf)
 - 山田 大樹
     - [NAP-Webのためのリソース解析機能を持つプロキシの開発](http://air.eng.kagawa-u.ac.jp/abstruct/2011/B4/08T273.pdf)
 - 山本 道明
@@ -306,12 +306,12 @@
 - 利根 大樹
     - [同時アクセス数制御機構における複数サービスへの対応とクライアント識別機構の改良](https://air.eng.kagawa-u.ac.jp/abstruct/2018/17g472.pdf)
 - 松田 正也
-    - [クラウドを用いた分散 Web システムにおけるオートスケールアルゴリズムの改良と評価](https://air.eng.kagawa-u.ac.jp/abstruct/2018/17g380.pdf)
+    - [クラウドを用いた分散 Web システムにおけるオートスケールアルゴリズムの改良と評価](https://air.eng.kagawa-u.ac.jp/abstruct/2018/17g480.pdf)
 
 ### 第15期生
 
 - 畠山 侑也
-    - [キャッシュサーバを用いた分散 Web システムにおけるキャッシュ更新機構の開発](https://air.eng.kagawa-u.ac.jp/abstruct/2017/16g264.pdf)
+    - [キャッシュサーバを用いた分散 Web システムにおけるキャッシュ更新機構の開発](https://air.eng.kagawa-u.ac.jp/abstruct/2017/16g463.pdf)
 - 森垣 航太
     - [DNS を用いた分散 Web システムにおける負荷分散機構の改良と評価](https://air.eng.kagawa-u.ac.jp/abstruct/2017/16g473.pdf)
 
