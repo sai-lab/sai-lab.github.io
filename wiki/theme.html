@@ -3,39 +3,38 @@
 <head>
 <title>theme</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-<link rel="stylesheet" href="templates/style.css" type="text/css">
+<link rel="stylesheet" href="../templates/style.css" type="text/css">
 
 </head>
 <body>
   <header>
     <nav role="navigation">
       <div>
-        <div>
-          <a href="./index.html" accesskey="h" title="[H]">
-            <img src="./images/logo.png" alt="最所研究室" height="20">
-            <span>最所研究室</span>
-          </a>
-        </div>
+        <a href="../index.html" accesskey="h" title="[H]">
+          <img src="../../images/logo.png" alt="最所研究室" height="20" class="logo">
+          <span class="sai-title">最所研究室</span>
+        </a>
       </div>
     </nav>
   </header>
-  <hr>
+  <input type="checkbox" id="contents_table_checkbox" checked="true" class="contents_table_checkbox">
+  <label for="contents_table_checkbox">サイドメニュー</label>
   <aside>
   <ul>
-  <li><a href="./index.html">トップページ</a></li>
-  <li><a href="./wiki/assign.html">研究室配属</a></li>
-  <li><a href="./wiki/theme.html">研究テーマ</a></li>
-  <li><a href="./wiki/member.html">研究室メンバー</a></li>
-  <li><a href="./wiki/thesis.html">学位論文タイトルリスト</a></li>
-  <li><a href="./wiki/result.html">業績リスト</a></li>
-  <li><a href="./workshop/okayama.html">合同研究会</a></li>
-  <li><a href="./member/index.html">メンバー用Wiki</a></li>
+  <li><a href="../index.html">トップページ</a></li>
+  <li><a href="../wiki/assign.html">研究室配属</a></li>
+  <li><a href="../wiki/theme.html">研究テーマ</a></li>
+  <li><a href="../wiki/member.html">研究室メンバー</a></li>
+  <li><a href="../wiki/thesis.html">学位論文タイトルリスト</a></li>
+  <li><a href="../wiki/result.html">業績リスト</a></li>
+  <li><a href="../workshop/okayama.html">合同研究会</a></li>
+  <!-- <li><a href="../member/index.html">メンバー用Wiki</a></li> -->
   </ul>
-  </asize>
+  </aside>
+  <div class="wrap-contents">
+    <div class="content">
 <nav role="navigation" class="contents_table">
-<ul>
-<li><input type="checkbox" id="checkbox0" checked="true"><label for="checkbox0">目次</label></li>
-</ul>
+<h3 id="%E7%9B%AE%E6%AC%A1">目次</h3>
 <p><a href="#%E7%A0%94%E7%A9%B6%E3%83%86%E3%83%BC%E3%83%9E">研究テーマ</a><br>
 <a href="#%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%81%AB%E9%81%A9%E3%81%97%E3%81%9F%E5%88%86%E6%95%A3web%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0">クラウドに適した分散Webシステム</a><br>
 <a href="#nap-web%E3%82%92%E7%94%A8%E3%81%84%E3%81%9F%E5%84%AA%E5%85%88%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%A9%9F%E6%A7%8B">NAP-Webを用いた優先アクセス機構</a><br>
@@ -130,5 +129,7 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 <p>ファイルに対して間違った操作や第三者による変更が加えられたときに変更前の状態に戻したいといった状況が考えられます。<br>
 ファイルを可変長ブロックとそれらをつなぐリンクで構成し、ファイルの変更操作を上書きではなくリンクのつなぎかえによる追記で実現することで過去の状態を復元することができるファイルシステムを開発しています。</p>
 
+    </div>
+  </div>
 </body>
 </html>
