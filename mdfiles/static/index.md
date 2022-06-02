@@ -3,7 +3,9 @@
 何か有りましたら、御連絡ください。  
 
 #### 最所研の紹介
-<div id=replacePdfjs>before</div>
+<div id=replacePdfjs>閲覧したいファイルをクリックしてください．</div>
+
+<!-- markdown-link-check-disable -->
 
 - [Intro_Saisho-Lab.pdf](./index.html?FILE=../public_material/Intro_Saisho-Lab.pdf)
 - [s20g451_introduction.pdf](./index.html?FILE=../public_material/s20g451_introduction.pdf)
@@ -30,6 +32,6 @@
 		const height=page._pageInfo.view[3];
 	
 		let elmPdf=document.getElementById('replacePdfjs');
-		elmPdf.innerHTML='<iframe src=\''+url+'\' height='+height+'px width='+width+'px style="zoom:1.3"></iframe>';
+		elmPdf.innerHTML='<iframe src=\''+url+'\' height='+height+'px width='+width+'px ></iframe>';
 	})();
 </script>
