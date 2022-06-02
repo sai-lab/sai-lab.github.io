@@ -4,7 +4,7 @@
 			"pattern": "localhost"
 		},
 		{
-			"pattern": "^./index.html?FILE="
+			"pattern": "./index.html?FILE="
 		}
 	]
 }
