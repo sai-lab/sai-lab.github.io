@@ -4,11 +4,11 @@
 
 #### 最所研の紹介
 
-<!-- - [Intro_Saisho-Lab.pdf](?FILE=../public_material/Intro_Saisho-Lab.pdf)
-- [s20g451_introduction.pdf](?FILE=../public_material/s20g451_introduction.pdf)
-- [s20g470-AERG2020.pdf](?FILE=../public_material/s20g470-AERG2020.pdf)
-- [s20g470-IntroResearch.pdf](?FILE=../public_material/s20g470-IntroResearch.pdf)
-- [s20g477-IntroResearch.pdf](?FILE=../public_material/s20g477-IntroResearch.pdf) -->
+- [Intro_Saisho-Lab.pdf](./index.html?FILE=../public_material/Intro_Saisho-Lab.pdf)
+- [s20g451_introduction.pdf](./index.html?FILE=../public_material/s20g451_introduction.pdf)
+- [s20g470-AERG2020.pdf](./index.html?FILE=../public_material/s20g470-AERG2020.pdf)
+- [s20g470-IntroResearch.pdf](./index.html?FILE=../public_material/s20g470-IntroResearch.pdf)
+- [s20g477-IntroResearch.pdf](./index.html?FILE=../public_material/s20g477-IntroResearch.pdf)
 
 <!-- <script src='../pdfjs/build/pdf.js'> </script>
 <script>
