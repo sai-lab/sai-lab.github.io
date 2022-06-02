@@ -3,7 +3,7 @@
 何か有りましたら、御連絡ください。  
 
 #### 最所研の紹介
-<iframe width=500px src='../pdfjs/web/viewer.html?FILE=../public_material/Intro_Saisho-Lab.pdf'>
+<iframe width=500px src='../../pdfjs/web/viewer.html?FILE=../public_material/Intro_Saisho-Lab.pdf'>
 </iframe>
 
 - [s20g451_introduction.pdf](../public_material/s20g451_introduction.pdf)
