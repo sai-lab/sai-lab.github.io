@@ -175,7 +175,7 @@ aside ul {
 	width: 0;
 	background-color: rgb(200, 200, 200);
 	font-size: small;
-	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 .contents_table > p {
