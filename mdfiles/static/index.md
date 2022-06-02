@@ -10,7 +10,7 @@
 - [s20g470-IntroResearch.pdf](./index.html?FILE=../public_material/s20g470-IntroResearch.pdf)
 - [s20g477-IntroResearch.pdf](./index.html?FILE=../public_material/s20g477-IntroResearch.pdf)
 
-<!-- <script src='../pdfjs/build/pdf.js'> </script>
+<script src='../pdfjs/build/pdf.js'> </script>
 <script>
 	function getFileNameFromGetFILE(){
 		let url = new URL(window.location.href);
@@ -31,4 +31,4 @@
 		let elmPdf=document.getElementById('replacePdfjs');
 		elmPdf.innerHTML='<iframe src=\''+url+'\' height='+height+'px width='+width+'px style="zoom:1.3"></iframe>';
 	})();
-</script> -->
+</script>
