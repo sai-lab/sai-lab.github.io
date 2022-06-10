@@ -45,12 +45,11 @@ newline script:
 Most of the code is appropriated from this repository.
 
 [vscode-markdown-pdf](https://github.com/yzane/vscode-markdown-pdf)
-
+*/
 
 var path = require('path');
 var fs = require('fs');
 var url = require('url');
-*/
 
 /*
  * https://github.com/microsoft/vscode/blob/ca4ceeb87d4ff935c52a7af0671ed9779657e7bd/extensions/markdown-language-features/src/slugify.ts#L26
