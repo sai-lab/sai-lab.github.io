@@ -113,10 +113,7 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 
 ## 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
 
-<img src="../images/theme/protec-kun_01.png" alt="protec-kun_01" width="50%">
-<img src="../images/theme/protec-kun_02.png" alt="protec-kun_02" width="50%">
-<img src="../images/theme/protec-kun_03.png" alt="protec-kun_03" width="50%">
-<img src="../images/theme/protec-kun_04.png" alt="protec-kun_04" width="50%">
+<img src="../images/theme/protec-kun_00.png" alt="protec-kun_03" width="50%">
 
 サイバー攻撃の増加，高度化に伴い，「手が動く」実践的なセキュリティ人材が不足しています．  
 本研究では，「手が動く」セキュリティ人材を育成することを，目的としています．  
