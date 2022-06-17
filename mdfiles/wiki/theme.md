@@ -101,6 +101,18 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「Visual DNS Attack」を開発しました．  
 これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
+## 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システムに関する研究
+
+<img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%">
+<img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%">
+<img src="../images/theme/auto_sec_exec_envs3.png" alt="auto_sec_exec_envs3" width="50%">
+<img src="../images/theme/auto_sec_exec_envs4.png" alt="auto_sec_exec_envs4" width="50%">
+
+サイバー攻撃の多様化・高度化を受け，セキュリティ対策としてセキュリティ人材の育成が求められています.  
+特に，実践的な技術力を身につけられる演習が注目されており，国の人材育成事業としても実施されています.  
+しかし，演習を実現するための環境構築には専門技術や手間，時間が必要であり，一部の企業や教育機関にとどまっています.  
+本研究では，演習環境を用意する教育者の負担を軽減し，幅広くセキュリティ演習が実施できるようになることを目指し，演習環境の自動構築システムを開発しています．  
+
 ## 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
 
 <img src="../images/theme/protec-kun_01.png" alt="protec-kun_01" width="50%">
