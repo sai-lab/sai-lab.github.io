@@ -101,7 +101,7 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「Visual DNS Attack」を開発しました．  
 これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
-## 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システムに関する研究
+## 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム
 
 <img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%">
 <img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%">
