@@ -22,7 +22,7 @@
 
 最所先生のWebページは[こちら](http://www.eng.kagawa-u.ac.jp/~sai/)。  
 香川大学によるStaff紹介ページは[こちら](https://www.kagawa-u.ac.jp/kagawa-u_ead/introduction/staff/20697/staff0127/)。  
-研究室紹介のスライド資料は[こちら](public_material/Intro_Saisho-Lab.pdf)。  
+研究室紹介のスライド資料は[こちら](public_material/Intro_Saisho-Lab2022.pdf)。  
 
 研究室に御用がある方は、 [contact[at]air.eng.kagawa-u.ac.jp](mailto:contact@air.eng.kagawa-u.ac.jp) に([at]を@に変更して) 御連絡ください。  
 
