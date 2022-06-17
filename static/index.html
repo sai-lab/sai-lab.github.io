@@ -36,13 +36,38 @@
     <div class="content">
 <h3 id="%E5%85%AC%E9%96%8B%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%B8%80%E8%A6%A7">公開ファイル一覧</h3>
 <p>何か有りましたら、御連絡ください。</p>
+<h4 id="%E6%9C%80%E6%89%80%E7%A0%94%E3%81%AE%E7%B4%B9%E4%BB%8B">最所研の紹介</h4>
+<div id=replacePdfjs>閲覧したいファイルをクリックしてください．</div>
+<!-- markdown-link-check-disable -->
 <ul>
-<li><a href="../public_material/Intro_Saisho-Lab.pdf">Intro_Saisho-Lab.pdf</a></li>
-<li><a href="../public_material/s20g451_introduction.pdf">s20g451_introduction.pdf</a></li>
-<li><a href="../public_material/s20g470-AERG2020.pdf">s20g470-AERG2020.pdf</a></li>
-<li><a href="../public_material/s20g470-IntroResearch.pdf">s20g470-IntroResearch.pdf</a></li>
-<li><a href="../public_material/s20g477-IntroResearch.pdf">s20g477-IntroResearch.pdf</a></li>
+<li><a href="./index.html?FILE=../public_material/Intro_Saisho-Lab.pdf">Intro_Saisho-Lab.pdf</a></li>
+<li><a href="./index.html?FILE=../public_material/s20g451_introduction.pdf">s20g451_introduction.pdf</a></li>
+<li><a href="./index.html?FILE=../public_material/s20g470-AERG2020.pdf">s20g470-AERG2020.pdf</a></li>
+<li><a href="./index.html?FILE=../public_material/s20g470-IntroResearch.pdf">s20g470-IntroResearch.pdf</a></li>
+<li><a href="./index.html?FILE=../public_material/s20g477-IntroResearch.pdf">s20g477-IntroResearch.pdf</a></li>
 </ul>
+<script src='../pdfjs/build/pdf.js'> </script>
+<script>
+	function getFileNameFromGetFILE(){
+		let url = new URL(window.location.href);
+		let params=url.searchParams;
+		return params.get('FILE');
+	}
+	
+	const url=getFileNameFromGetFILE();
+	pdfjsLib.GlobalWorkerOptions.workerSrc='../pdfjs/build/pdf.worker.js';
+	const loadingTask=pdfjsLib.getDocument(url);
+	
+	(async ()=>{
+		const pdf=await loadingTask.promise;
+		const page=await pdf.getPage(1);
+		const width=page._pageInfo.view[2];
+		const height=page._pageInfo.view[3];
+	
+		let elmPdf=document.getElementById('replacePdfjs');
+		elmPdf.innerHTML='<iframe src=\''+url+'\' height='+height+'px width='+width+'px ></iframe>';
+	})();
+</script>
 
     </div>
   </div>
