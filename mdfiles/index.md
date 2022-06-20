@@ -40,4 +40,3 @@
 </div>
 
 <hr>
-<pre>Update by 2022/05/31. </pre>
