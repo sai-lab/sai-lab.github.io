@@ -123,7 +123,7 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 そのため，バックアップをとってから攻撃されるまでに生じたファイルの変更が消失してしまいます.  
 本研究では，ファイル操作単位でバージョン管理を行い, 攻撃される直前のファイルの状態に復元することを目的としています.
 
-<img src="../images/theme/yuiha-fs-backup.png" alt="protec-kun_01" width="100%">
+<img src="../images/theme/yuiha-fs-backup.png" alt="yuiha-fs" width="100%">
 
 # 最近までの研究
 
