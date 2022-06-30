@@ -9,8 +9,6 @@
 
 # 最所研究室
 
-<b>現在テスト中です．<a href='https://air.eng.kagawa-u.ac.jp'>こちら</a>をご覧ください．</b>
-
 <!-- ![2021年度メンバー一同](images/fetch_002.jpg) -->
 <img src="images/members2021.jpeg" alt="2021年度メンバー一同" width="100%">
 
