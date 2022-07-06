@@ -114,7 +114,7 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 
 ## 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
 
-スライドを [こちら](../public_material/s22d451-IntroResearch.pdf) で公開しています．  
+スライドを [こちら](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) で公開しています．  
 
 <img src="../images/theme/protec-kun_00.png" alt="protec-kun_03" width="50%">
 
