@@ -56,6 +56,7 @@ code {
 	--content-width: calc(var(--sidebar-width) * 5);
 	--sai-color: rgb(115, 145, 60);
 	--sai-bright-color: rgb(197, 215, 112);
+	--keywords-bg-color: rgba(197, 215, 112, 0.5);
 }
 
 header {
@@ -237,6 +238,28 @@ aside ul {
 
 .contents_table_checkbox:checked ~ aside {
 	width: var(--sidebar-width);
+}
+
+.theme-keywords {
+	position: relative;
+	margin: -15px 10px 5px 10px;
+	padding: 22px 15px 5px;
+	border: 2px solid var(--sai-color);
+	border-radius: 15px 0 15px 0;
+	display: inline-block;
+}
+
+.theme-keywords::before {
+	content: "keywords";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	font-size: small;
+	background-color: var(--sai-color);
+	height: 17px;
+	padding: 0 15px;
+	border-radius: 12px 0 12px 0;
 }
 
 /* 程好い時 */
