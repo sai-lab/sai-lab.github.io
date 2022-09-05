@@ -18,6 +18,7 @@
 - [最所研究室紹介-2022](./index.html?FILE=../public_material/Intro_Saisho-Lab2022.pdf)
 - [Yuiha ~バージョン管理機能を持つファイルシステム(VerFS)~](./index.html?FILE=../public_material/poster-2022_VersionFileSystem.pdf)
 - [セキュリティ演習システム](./index.html?FILE=../public_material/poster-2022_CyberEducation.pdf)
+- [Security Exercise System](./index.html?FILE=../public_material/Security_Exercise_System.pdf)
 - [BEYOND: セキュリティ対策システム](./index.html?FILE=../public_material/poster-2022_BEYOND-SecuritySystem.pdf)
 - [分散WebシステムとDNSキャッシュポイズニングの可視化 ](./index.html?FILE=../public_material/poster-2022_Loadbalance-Visualization.pdf)
 
