@@ -9,10 +9,10 @@
 [分散WebシステムにおけるDNSを用いた負荷分散機構](#分散webシステムにおけるdnsを用いた負荷分散機構)  
 [セキュリティ保護システム](#セキュリティ保護システム)  
 [BEYOND:脆弱性対策のための​セキュリティ保護システム](#beyond脆弱性対策のための​セキュリティ保護システム)  
-[セキュリティ演習システム](#セキュリティ演習システム)  
+[セキュリティ演習システム(Security Education System)](#セキュリティ演習システム(security education system))  
 [DNSサービス/DNSキャッシュポイズニング可視化システム](#dnsサービスdnsキャッシュポイズニング可視化システム)  
-[教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム](#教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム)  
-[試行錯誤しながら自学自習できる体験型セキュリティ演習システム](#試行錯誤しながら自学自習できる体験型セキュリティ演習システム)  
+[教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)](#教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(automatic construction system for security training environment to reduce the burden on educators))  
+[試行錯誤しながら自学自習できる体験型セキュリティ演習システム(Security Practice System Enabling Trial and Error)](試行錯誤しながら自学自習できる体験型セキュリティ演習システム(security practice system enabling trial and error))  
 [ファイルシステム](#ファイルシステム)  
 [バージョン管理機能を持ったファイルシステム](#バージョン管理機能を持ったファイルシステム)
 [最近までの研究](#最近までの研究)  
@@ -83,9 +83,11 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 これらの情報を突き合わせ，組織内の機器に存在する脆弱性を検知し，機器に対する制御方針を算出します．  
 算出された制御方針を元に組織の管理者及び機器の所有者に通知を行い，システムにより機器を組織のネットワークから遮断・隔離を行います．  
 
-## セキュリティ演習システム
+## セキュリティ演習システム(Security Education System)
 
 <div class="theme-keywords">セキュリティ教育，可視化，DNS，軽量仮想環境，試行錯誤</div>
+
+<div class="theme-keywords">Security Education, Visualization, Domain Name System(DNS), Low Spac Virtualization, Trail and Error</div>
 
 ### DNSサービス/DNSキャッシュポイズニング可視化システム
 
@@ -97,7 +99,8 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「[Visual DNS Attack](https://github.com/sai-lab/Visual-DNS-Attack)」を開発しました．  
 これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
-### 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム
+### 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)
+
 
 <img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%">
 <img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%">
@@ -109,17 +112,30 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 しかし，演習を実現するための環境構築には専門技術や手間，時間が必要であり，中小企業や地方の教育機関の教育者には困難です.  
 本研究では，演習環境を用意する教育者の負担を軽減し，幅広くセキュリティ演習が実施できるようになることを目指し，演習環境の自動構築システムを開発しています．  
 
-### 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
+In recent years, with the diversification and sophistication of cyber-attacks, the development of security personnel is required as a security countermeasure.  
+In particular, practice that enable students to acquire practical technical skills are attracting attention, and are being implemented as part of a national human resource development project.  
+However, building an environment to implement practice requires specialized skills, labor, and time, making it difficult for educators at small and medium-sized enterprises and local educational institutions.  
+In this research, we are developing an automatic construction system for the practice environment, aiming to reduce the burden on the educator who prepares the practice environment and to enable a wide range of security practiess.  
 
-スライドを [こちら](../public_material/s22d451-IntroResearch.pdf) で公開しています．  
+### 試行錯誤しながら自学自習できる体験型セキュリティ演習システム(Security Practice System Enabling Trial and Error)
+
+オープンキャンパスにも使用したポスターを [こちら](../static/index.html?FILE=../public_material/poster-2022_CyberEducation.pdf) で公開しています．  
+The posters used by open campus are published [here](../static/index.html?FILE=../public_material/Security_Exercise_System.pdf) .  
+
+修論発表に使用したスライドを [こちら](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) で公開しています．  
+The slides used by Master's thesis presentation are published [here](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) (Only Japanese) .
 
 <img src="../images/theme/protec-kun_00.png" alt="protec-kun_03" width="50%">
 
 サイバー攻撃の増加や高度化に伴い，「手が動く」実践的なセキュリティ人材が不足しています．  
-本研究では，そのような人材の育成を目的とした研究をしています．  
-そのために，体験型セキュリティ演習の1つである「ハードニング演習」に注目しています．  
+本研究では，そのような人材の育成を目的として，体験型セキュリティ演習の1つである「ハードニング演習」に注目しています．  
 しかし，既存のハードニング演習は，複数メンバー集まってグループで相談しながら行う演習であるため，スキルの低いメンバーは演習について行けずグループの中で置いてけぼりになってしまいます．  
 このような，ついて行けない学生をサポートし，グループ演習ができるまでに底上げするシステムを開発することで，セキュリティ人材の育成に寄与します．  
+
+With the increase and sophistication of cyber-attacks, there is a shortage of practical security personnel who are "hands-on".  
+In this research, for the purpose of developing such human resources, we focus on "Hardening Practice", which is one of the hands-on security practices.  
+However, since the existing "hardening practice" is an practice in which multiple members gather and consult in a group, members with low skills cannot keep up with the practice and are left behind in the group.  
+We will contribute to the development of security human resources by developing a system that supports such students who cannot keep up and raises the level to the point where group practies can be done.  
 
 ## ファイルシステム
 
