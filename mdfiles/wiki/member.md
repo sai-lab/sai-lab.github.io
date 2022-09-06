@@ -26,7 +26,7 @@
 
 ### 工学研究科 博士後期課程(博士)1年
 
-- 竹原 一駿 [個人HP](https://i13302.github.io/) | [researchmap](https://researchmap.jp/itakehara) | [facebook](https://www.facebook.com/pikachu.raichyu)
+- 竹原 一駿 (Ichitoshi TAKEHARA) [個人HP](https://i13302.github.io/) | [researchmap](https://researchmap.jp/itakehara) | [facebook](https://www.facebook.com/pikachu.raichyu)
 
 ### 工学研究科 博士前期課程(修士)2年
 
