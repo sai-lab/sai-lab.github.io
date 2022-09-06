@@ -9,10 +9,10 @@
 [分散WebシステムにおけるDNSを用いた負荷分散機構](#分散webシステムにおけるdnsを用いた負荷分散機構)  
 [セキュリティ保護システム](#セキュリティ保護システム)  
 [BEYOND:脆弱性対策のための​セキュリティ保護システム](#beyond脆弱性対策のための​セキュリティ保護システム)  
-[セキュリティ演習システム(Security Education System)](#セキュリティ演習システム(security education system))  
+[セキュリティ演習システム(Security Education System)](#セキュリティ演習システム)  
 [DNSサービス/DNSキャッシュポイズニング可視化システム](#dnsサービスdnsキャッシュポイズニング可視化システム)  
-[教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)](#教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(automatic construction system for security training environment to reduce the burden on educators))  
-[試行錯誤しながら自学自習できる体験型セキュリティ演習システム(Security Practice System Enabling Trial and Error)](試行錯誤しながら自学自習できる体験型セキュリティ演習システム(security practice system enabling trial and error))  
+[教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)](#教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム)  
+[試行錯誤しながら自学自習できる体験型セキュリティ演習システム(Security Practice System Enabling Trial and Error)](試行錯誤しながら自学自習できる体験型セキュリティ演習システム)  
 [ファイルシステム](#ファイルシステム)  
 [バージョン管理機能を持ったファイルシステム](#バージョン管理機能を持ったファイルシステム)
 [最近までの研究](#最近までの研究)  
@@ -83,7 +83,9 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 これらの情報を突き合わせ，組織内の機器に存在する脆弱性を検知し，機器に対する制御方針を算出します．  
 算出された制御方針を元に組織の管理者及び機器の所有者に通知を行い，システムにより機器を組織のネットワークから遮断・隔離を行います．  
 
-## セキュリティ演習システム(Security Education System)
+## セキュリティ演習システム
+
+**Security Education System** 
 
 <div class="theme-keywords">セキュリティ教育，可視化，DNS，軽量仮想環境，試行錯誤</div>
 
@@ -99,8 +101,9 @@ DNSを標的とした，あるいは利用した攻撃は数多く存在しま�
 そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「[Visual DNS Attack](https://github.com/sai-lab/Visual-DNS-Attack)」を開発しました．  
 これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
-### 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)
+### 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム
 
+**Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)**
 
 <img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%">
 <img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%">
@@ -117,7 +120,9 @@ In particular, practice that enable students to acquire practical technical skil
 However, building an environment to implement practice requires specialized skills, labor, and time, making it difficult for educators at small and medium-sized enterprises and local educational institutions.  
 In this research, we are developing an automatic construction system for the practice environment, aiming to reduce the burden on the educator who prepares the practice environment and to enable a wide range of security practiess.  
 
-### 試行錯誤しながら自学自習できる体験型セキュリティ演習システム(Security Practice System Enabling Trial and Error)
+### 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
+
+**Security Practice System Enabling Trial and Error**
 
 オープンキャンパスにも使用したポスターを [こちら](../static/index.html?FILE=../public_material/poster-2022_CyberEducation.pdf) で公開しています．  
 The posters used by open campus are published [here](../static/index.html?FILE=../public_material/Security_Exercise_System.pdf) .  
