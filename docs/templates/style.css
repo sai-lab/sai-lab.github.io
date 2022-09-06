@@ -113,6 +113,7 @@ aside {
 	background-color: rgb(200, 200, 200);
 	font-size: small;
 	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 aside ul {
