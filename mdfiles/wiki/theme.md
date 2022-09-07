@@ -89,7 +89,7 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 <div class="theme-keywords">セキュリティ教育，可視化，DNS，軽量仮想環境，試行錯誤</div>
 
-<div class="theme-keywords">Security Education, Visualization, Domain Name System(DNS), Low Spac Virtualization, Trail and Error</div>
+<div class="theme-keywords">Security Education, Visualization, Domain Name System(DNS), Lightweight Virtualization, Trial and Error</div>
 
 ### DNSサービス/DNSキャッシュポイズニング可視化システム
 
