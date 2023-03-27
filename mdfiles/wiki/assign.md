@@ -78,13 +78,24 @@
 研究室内の有志で勉強会を不定期に開いています。  
 年度ごとに、研究に必要な知識や、大学院の入試対策などを行ってきました。  
 
-今年度は、仮想化や自動化についての勉強会を行っています。  
-詳しい内容は [sai-lab/iac-workshopg](https://github.com/sai-lab/iac-workshop) をご覧ください。  
+主に仮想化や自動化についての勉強会を行っています。  
+<!--詳しい内容は [sai-lab/iac-workshopg](https://github.com/sai-lab/iac-workshop) をご覧ください。  -->
+2022年度に行った勉強会の資料を一部掲載します。
+- [vagrantとansible](./index.html?FILE=../public_material/nakamura_vagrant_ansible.pdf)
+- [論文の書き方](./index.html?FILE=../public_material/takehara_howtowrite.pdf)
+
+この他にDockerの勉強会等も行っています。
 
 # イベント
 
 新ゼミ生歓迎コンパ、暑気払い、忘年会、追い出しコンパなど、季節毎に何らかのイベントは行っています。  
-また、近年は電子・情報工学科ビアガーデンの幹事も行っています。   
+また、近年は電子・情報工学科ビアガーデンの幹事も行っています。  
+
+2022年度追い出しコンパは居酒屋にて行いました。
+
+<img src="../images/assign/oicom_2022.png" alt="oicom_2022" width="50%">
+
+今後も新型コロナウイルスの情勢に配慮しつつ積極的なイベント実施を予定しています。
 
 # 学会発表
 
