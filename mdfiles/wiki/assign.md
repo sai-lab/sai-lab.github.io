@@ -84,7 +84,12 @@
 - [vagrantとansible](./index.html?FILE=../public_material/nakamura_vagrant_ansible.pdf)
 - [論文の書き方](./index.html?FILE=../public_material/takehara_howtowrite.pdf)
 
-この他にDockerの勉強会等も行っています。
+- [コンテナ，Docker](https://yuyuyusei.github.io/container-learn/)
+
+
+勉強会は、先輩が後輩へ授業を行うような形で実施しています。演習形式を取っており、実際に手を動かすことも多いです。
+
+
 
 # イベント
 
