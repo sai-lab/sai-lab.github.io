@@ -81,8 +81,8 @@
 主に仮想化や自動化についての勉強会を行っています。  
 <!--詳しい内容は [sai-lab/iac-workshopg](https://github.com/sai-lab/iac-workshop) をご覧ください。  -->
 2022年度に行った勉強会の資料を一部掲載します。
-- [vagrantとansible](./index.html?FILE=../public_material/nakamura_vagrant_ansible.pdf)
-- [論文の書き方](./index.html?FILE=../public_material/takehara_howtowrite.pdf)
+- [vagrantとansible](../public_material/nakamura_vagrant_ansible.pdf)
+- [論文の書き方](../public_material/takehara_howtowrite.pdf)
 
 - [コンテナ，Docker](https://yuyuyusei.github.io/container-learn/)
 
