@@ -83,6 +83,10 @@
 
 ## 2022年度勉強会
 
+### [仮想化とは]()
+
+<img src="../images/assign/ishizuka_virtualization.png" alt="what_is_virtualization" width="50%">
+
 ### [vagrantとansible](../public_material/nakamura_vagrant_ansible.pdf)
 
 <img src="../images/assign/nakamura_tools1.png" alt="why_use_tools" width="50%">
@@ -99,7 +103,7 @@ vagrantはコマンド操作によってKVMやVirtualboxのような仮想マシ
 ansibleは設定ファイルの変更やソフトウェアのインストールを行うソフトウェアです。シェルスクリプトに似た動作をしますが、ansibleは同じ操作を何度繰り返しても、同じ実行結果を得られるという特徴があります。
 
 
-## [論文の書き方](../public_material/takehara_howtowrite.pdf)
+### [論文の書き方](../public_material/takehara_howtowrite.pdf)
 <img src="../images/assign/takehara_thesis1.png" alt="what_is_thesis" width="50%">
 <img src="../images/assign/takehara_thesis2.png" alt="difference" width="50%">
 <img src="../images/assign/takehara_thesis3.png" alt="thesis_flow" width="50%">
@@ -128,7 +132,7 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 ### 2022年度追い出しコンパ
 
 - 日時:2022年3月6日(月) 18:00～
-- 場所:[焼き鳥ギャング 高松店](https://gyangutakamatu.owst.jp/)
+- 場所:焼き鳥ギャング 高松店
 - 参加者
     - 教員
         - 最所先生，亀井先生
