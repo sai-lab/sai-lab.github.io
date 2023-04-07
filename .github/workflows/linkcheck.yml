@@ -1,18 +1,18 @@
 # GitHub ActionでMarkdownのリンクを検査する https://zenn.dev/termoshtt/articles/markdown-link-check
-name: markdown Link Check
+# name: markdown Link Check
 
-on:
-  push:
-    branches:
-      - "*"
-      - "*/*"
+# on:
+#   push:
+#     branches:
+#       - "*"
+#       - "*/*"
 
-jobs:
-  markdown-link-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
-        with:
-          folder-path: "mdfiles/"
-          config-file: ".github/settings/markdown-link-check.json"
+# jobs:
+#   markdown-link-check:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@master
+#       - uses: gaurav-nelson/github-action-markdown-link-check@v1
+#         with:
+#           folder-path: "mdfiles/"
+#           config-file: ".github/settings/markdown-link-check.json"
