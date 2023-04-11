@@ -124,11 +124,11 @@ In this research, we are developing an automatic construction system for the pra
 
 **Security Practice System Enabling Trial and Error**
 
-オープンキャンパスにも使用したポスターを [こちら](../static/index.html?FILE=../public_material/poster-2022_CyberEducation.pdf) で公開しています．  
-The posters used by open campus are published [here](../static/index.html?FILE=../public_material/Security_Exercise_System.pdf) .  
+オープンキャンパスにも使用したポスターを [こちら](../public_material/poster-2022_CyberEducation.pdf) で公開しています．  
+The posters used by open campus are published [here](../public_material/Security_Exercise_System.pdf) .  
 
-修論発表に使用したスライドを [こちら](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) で公開しています．  
-The slides used by Master's thesis presentation are published [here](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) (Only Japanese) .
+修論発表に使用したスライドを [こちら](../public_material/s22d451-IntroResearch.pdf) で公開しています．  
+The slides used by Master's thesis presentation are published [here](../public_material/s22d451-IntroResearch.pdf) (Only Japanese) .
 
 <img src="../images/theme/protec-kun_00.png" alt="protec-kun_03" width="50%">
 
