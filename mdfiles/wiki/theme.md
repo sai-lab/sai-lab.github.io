@@ -123,13 +123,13 @@ In this research, we are developing an automatic construction system for the pra
 ### 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
 
 **Security Practice System Enabling Trial and Error**
-
+<!-- markdown-link-check-disable --> 
 オープンキャンパスにも使用したポスターを [こちら](../static/index.html?FILE=../public_material/poster-2022_CyberEducation.pdf) で公開しています．  
 The posters used by open campus are published [here](../static/index.html?FILE=../public_material/Security_Exercise_System.pdf) .  
 
 修論発表に使用したスライドを [こちら](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) で公開しています．  
 The slides used by Master's thesis presentation are published [here](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) (Only Japanese) .
-
+<!-- markdown-link-check-enable --> 
 <img src="../images/theme/protec-kun_00.png" alt="protec-kun_03" width="50%">
 
 サイバー攻撃の増加や高度化に伴い，「手が動く」実践的なセキュリティ人材が不足しています．  
