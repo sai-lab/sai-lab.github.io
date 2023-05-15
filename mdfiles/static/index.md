@@ -24,6 +24,13 @@
 - [BEYOND: セキュリティ対策システム(Long Version)](./index.html?FILE=../public_material/s20g470-IntroResearch.pdf)
 - [分散WebシステムとDNSキャッシュポイズニングの可視化 ](./index.html?FILE=../public_material/poster-2022_Loadbalance-Visualization.pdf)
 
+#### 2022年度勉強会
+
+- [vagrantとansible](../public_material/nakamura_vagrant_ansible.pdf)
+- [論文の書き方](../public_material/takehara_howtowrite.pdf)
+- [コンテナ，Docker](https://yuyuyusei.github.io/container-learn/)
+- [Tex(テフ)の使い方](https://hackmd.io/vNPoCzvzSzO43ccTsQha3A?view)
+
 <script src='../pdfjs/build/pdf.js'> </script>
 <script>
 	function getFileNameFromGetFILE(){

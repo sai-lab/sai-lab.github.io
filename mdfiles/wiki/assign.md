@@ -17,7 +17,7 @@
 
 # 研究室配属
 
-研究室見学や質問など御用がある方は、 [contact[at]air.eng.kagawa-u.ac.jp]に([at]を@に変更して) 御連絡ください。  
+研究室見学や質問など御用がある方は、 contact[at]air.eng.kagawa-u.ac.jpに([at]を@に変更して) 御連絡ください。  
 
 なお，Webオープンキャンパスの動画に出現した，最所研マークは6個です．   
 
@@ -83,7 +83,7 @@
 
 ## 2022年度勉強会
 
-### [仮想化とは]
+### 仮想化とは
 
 <img src="../images/assign/ishizuka_virtualization.png" alt="what_is_virtualization" width="50%">
 
@@ -93,7 +93,7 @@
 
 研究室のサーバを用いて実際に構築を行いました．
 
-### [vagrantとansible](../public_material/nakamura_vagrant_ansible.pdf)
+### vagrantとansible
 
 <img src="../images/assign/nakamura_tools1.png" alt="why_use_tools" width="50%">
 <img src="../images/assign/nakamura_tools2.png" alt="vagrant" width="50%">
@@ -109,7 +109,7 @@ vagrantはコマンド操作によってKVMやVirtualboxのような仮想マシ
 ansibleは設定ファイルの変更やソフトウェアのインストールを行うソフトウェアです。シェルスクリプトに似た動作をしますが、ansibleは同じ操作を何度繰り返しても、同じ実行結果を得られるという特徴があります。
 
 
-### [論文の書き方](../public_material/takehara_howtowrite.pdf)
+### 論文の書き方
 <img src="../images/assign/takehara_thesis1.png" alt="what_is_thesis" width="50%">
 <img src="../images/assign/takehara_thesis2.png" alt="difference" width="50%">
 <img src="../images/assign/takehara_thesis3.png" alt="thesis_flow" width="50%">
@@ -122,7 +122,7 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 
 論文を書くためには、いきなり本文を書き始めるのではなく、課題や結果、解決法などの内容の整理、章立てや大まかな内容を先に骨子として作ります。内容が決まったらアドバイスを貰い、それに従って本文を書き、アドバイスを受けて調整するという流れを繰り返します。
 
-### [コンテナ，Docker](https://yuyuyusei.github.io/container-learn/)
+### コンテナ，Docker
 <img src="../images/assign/oda_container1.png" alt="hv_container"  width="50%">
 
 <img src="../images/assign/oda_container2.png" alt="container_namespace"  width="50%">
@@ -131,13 +131,15 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 
 研究室のサーバにコンテナを作成し，コンテナ内にnginxを構築，アクセスしてみるという演習を行いました．
 
-### [Tex(テフ)の使い方](https://hackmd.io/vNPoCzvzSzO43ccTsQha3A?view)
+### Tex(テフ)の使い方
 <img src="../images/assign/goto_tex1.png" alt="tex_title"  width="50%">
 
 <img src="../images/assign/goto_tex2.png" alt="tex_chapter"  width="50%">
 学術論文を作成する際によく使用されるツールであるTexの使用方法について学び，実際にpdfファイルを作成する演習です．
 
 ファイルを作成するにあたり，ツールのインストールやどのようにファイルを記述していくかの演習を行いました．
+
+勉強会で使用した資料は[こちら](../static/index.md)
 
 # イベント
 
