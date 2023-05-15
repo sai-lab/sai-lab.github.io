@@ -131,9 +131,9 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 使用した資料は[こちら](./index.html?FILE=../public_material/takehara_howtowrite.pdf)
 
 ### コンテナ，Docker
-<img src="../images/assign/oda_container1.png" alt="hv_container"  width="100%">
+<img src="../images/assign/oda_container1.png" alt="hv_container"  width="80%">
 
-<img src="../images/assign/oda_container2.png" alt="container_namespace"  width="100%">
+<img src="../images/assign/oda_container2.png" alt="container_namespace"  width="80%">
 
 仮想化技術の1つであるコンテナと，それを用いるためのソフトウェアであるDockerについて学ぶ演習です．
 
@@ -142,9 +142,9 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 使用した資料は[こちら](https://yuyuyusei.github.io/container-learn/)
 
 ### Tex(テフ)の使い方
-<img src="../images/assign/goto_tex1.png" alt="tex_title"  width="100%">
+<img src="../images/assign/goto_tex1.png" alt="tex_title"  width="80%">
 
-<img src="../images/assign/goto_tex2.png" alt="tex_chapter"  width="100%">
+<img src="../images/assign/goto_tex2.png" alt="tex_chapter"  width="80%">
 
 
 <br>
