@@ -83,9 +83,15 @@
 
 ## 2022年度勉強会
 
-### [仮想化とは]()
+### [仮想化とは]
 
 <img src="../images/assign/ishizuka_virtualization.png" alt="what_is_virtualization" width="50%">
+
+最所研では仮想化を用いたシステム開発を行うことが多いため，仮想化とは何かを学び，仮想マシンを実際に構築して動かす演習です．
+
+仮想化とは，ソフトウェアを用いて自由なスペックを設定したハードウェアを再現する技術です．
+
+研究室のサーバを用いて実際に構築を行いました．
 
 ### [vagrantとansible](../public_material/nakamura_vagrant_ansible.pdf)
 
@@ -116,10 +122,22 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 
 論文を書くためには、いきなり本文を書き始めるのではなく、課題や結果、解決法などの内容の整理、章立てや大まかな内容を先に骨子として作ります。内容が決まったらアドバイスを貰い、それに従って本文を書き、アドバイスを受けて調整するという流れを繰り返します。
 
-- [コンテナ，Docker](https://yuyuyusei.github.io/container-learn/)
+### [コンテナ，Docker](https://yuyuyusei.github.io/container-learn/)
+<img src="../images/assign/oda_container1.png" alt="hv_container"  width="50%">
 
+<img src="../images/assign/oda_container2.png" alt="container_namespace"  width="50%">
 
+仮想化技術の1つであるコンテナと，それを用いるためのソフトウェアであるDockerについて学ぶ演習です．
 
+研究室のサーバにコンテナを作成し，コンテナ内にnginxを構築，アクセスしてみるという演習を行いました．
+
+### [Tex(テフ)の使い方](https://hackmd.io/vNPoCzvzSzO43ccTsQha3A?view)
+<img src="../images/assign/goto_tex1.png" alt="tex_title"  width="50%">
+
+<img src="../images/assign/goto_tex2.png" alt="tex_chapter"  width="50%">
+学術論文を作成する際によく使用されるツールであるTexの使用方法について学び，実際にpdfファイルを作成する演習です．
+
+ファイルを作成するにあたり，ツールのインストールやどのようにファイルを記述していくかの演習を行いました．
 
 # イベント
 
