@@ -83,6 +83,8 @@
 
 ## 2022年度勉強会
 
+勉強会で使用した資料は[こちら](../static/index.md)に掲載しております．
+
 ### 仮想化とは
 
 <img src="../images/assign/ishizuka_virtualization.png" alt="what_is_virtualization" width="50%">
@@ -108,11 +110,13 @@ vagrantはコマンド操作によってKVMやVirtualboxのような仮想マシ
 
 ansibleは設定ファイルの変更やソフトウェアのインストールを行うソフトウェアです。シェルスクリプトに似た動作をしますが、ansibleは同じ操作を何度繰り返しても、同じ実行結果を得られるという特徴があります。
 
+使用した資料は[こちら](./index.html?FILE=../public_material/nakamura_vagrant_ansible.pdf)
 
 ### 論文の書き方
 <img src="../images/assign/takehara_thesis1.png" alt="what_is_thesis" width="50%">
 <img src="../images/assign/takehara_thesis2.png" alt="difference" width="50%">
 <img src="../images/assign/takehara_thesis3.png" alt="thesis_flow" width="50%">
+<img src="../images/assign/takehara_thesis4.png" alt="thesis_flow" width="50%">
 
 研究を進める上で必ず論文を書く必要があります。論文を書く上で重要な考え方や授業レポートとの違い、進め方についての座学です．
 
@@ -121,6 +125,8 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 レポートには模範解答があり、教員の目的に沿っているかの確認、授業から何を学んだかをまとめるためのものであり主観的に書かれるものです。それに対して論文は、解答はなく、自分の成果に新規性や有用性があることを示すためのものです。第3者が見ても理解できる内容であり、客観的に書かれる必要があります．
 
 論文を書くためには、いきなり本文を書き始めるのではなく、課題や結果、解決法などの内容の整理、章立てや大まかな内容を先に骨子として作ります。内容が決まったらアドバイスを貰い、それに従って本文を書き、アドバイスを受けて調整するという流れを繰り返します。
+
+使用した資料は[こちら](./index.html?FILE=../public_material/takehara_howtowrite.pdf)
 
 ### コンテナ，Docker
 <img src="../images/assign/oda_container1.png" alt="hv_container"  width="50%">
@@ -131,15 +137,20 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 
 研究室のサーバにコンテナを作成し，コンテナ内にnginxを構築，アクセスしてみるという演習を行いました．
 
+使用した資料は[こちら](https://yuyuyusei.github.io/container-learn/)
+
 ### Tex(テフ)の使い方
 <img src="../images/assign/goto_tex1.png" alt="tex_title"  width="50%">
 
 <img src="../images/assign/goto_tex2.png" alt="tex_chapter"  width="50%">
+
+
+<br>
 学術論文を作成する際によく使用されるツールであるTexの使用方法について学び，実際にpdfファイルを作成する演習です．
 
 ファイルを作成するにあたり，ツールのインストールやどのようにファイルを記述していくかの演習を行いました．
 
-勉強会で使用した資料は[こちら](../static/index.md)
+使用した資料は[こちら](https://hackmd.io/vNPoCzvzSzO43ccTsQha3A?view)
 
 # イベント
 
@@ -168,7 +179,7 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 
 思い出や今後を語りながら飲食、卒業生の挨拶、お世話になった先生方へ卒業生からプレゼント渡しを行いました。
 
-<img src="../images/assign/oicom_2022.png" alt="oicom_2022" width="50%">
+<img src="../images/assign/oicom_2022.jpg" alt="oicom_2022" width="100%">
 
 
 # 学会発表
