@@ -87,7 +87,7 @@
 
 ### 仮想化とは
 
-<img src="../images/assign/ishizuka_virtualization.png" alt="what_is_virtualization" width="50%">
+<img src="../images/assign/ishizuka_virtualization.png" alt="what_is_virtualization" width="80%">
 
 最所研では仮想化を用いたシステム開発を行うことが多いため，仮想化とは何かを学び，仮想マシンを実際に構築して動かす演習です．
 
