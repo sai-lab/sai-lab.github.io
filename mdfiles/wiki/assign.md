@@ -110,6 +110,8 @@ vagrantはコマンド操作によってKVMやVirtualboxのような仮想マシ
 
 ansibleは設定ファイルの変更やソフトウェアのインストールを行うソフトウェアです。シェルスクリプトに似た動作をしますが、ansibleは同じ操作を何度繰り返しても、同じ実行結果を得られるという特徴があります。
 
+<!-- markdown-link-check-disable -->
+
 使用した資料は[こちら](./index.html?FILE=../public_material/nakamura_vagrant_ansible.pdf)
 
 ### 論文の書き方
