@@ -75,45 +75,41 @@
 <img src="../images/assign/ishizuka_virtualization.png" alt="what_is_virtualization" width="80%">
 
 最所研では仮想化を用いたシステム開発を行うことが多いため，仮想化とは何かを学び，仮想マシンを実際に構築して動かす演習です．
-
 仮想化とは，ソフトウェアを用いて自由なスペックを設定したハードウェアを再現する技術です．
 
 研究室のサーバを用いて実際に構築を行いました．
 
 ### vagrantとansible
 
-<img src="../images/assign/nakamura_tools1.png" alt="why_use_tools" width="50%">
+<!-- <img src="../images/assign/nakamura_tools1.png" alt="why_use_tools" width="50%"> -->
 <img src="../images/assign/nakamura_tools2.png" alt="vagrant" width="50%">
 <img src="../images/assign/nakamura_tools3.png" alt="ansible1" width="50%">
-<img src="../images/assign/nakamura_tools4.png" alt="ansible2" width="50%">
+<!-- <img src="../images/assign/nakamura_tools4.png" alt="ansible2" width="50%"> -->
 
 最所研で主に用いられるサーバ構成管理ツールであるvagrant、ansibleについて特徴を紹介し、実際に動かしてみる演習です．
-
 これら2つのツールは、研究を効率的に進めていく上では環境を再現するという点で大いに役立ちます。
 
 vagrantはコマンド操作によってKVMやVirtualboxのような仮想マシンを構築するソフトウェアを動作させるソフトウェアです．vagrantを用いることによって、あらかじめ設定された環境を何度も再現する、仮想マシンの構築を自動化することができます．
-
 ansibleは設定ファイルの変更やソフトウェアのインストールを行うソフトウェアです。シェルスクリプトに似た動作をしますが、ansibleは同じ操作を何度繰り返しても、同じ実行結果を得られるという特徴があります。
 
 <!-- markdown-link-check-disable -->
 
-使用した資料は[こちら](./index.html?FILE=../public_material/nakamura_vagrant_ansible.pdf)
+使用した資料は[vagrant_ansible.pdf](./index.html?FILE=../public_material/vagrant_ansible.pdf)にあります。  
 
 ### 論文の書き方
 <img src="../images/assign/takehara_thesis1.png" alt="what_is_thesis" width="50%">
 <img src="../images/assign/takehara_thesis2.png" alt="difference" width="50%">
-<img src="../images/assign/takehara_thesis3.png" alt="thesis_flow" width="50%">
-<img src="../images/assign/takehara_thesis4.png" alt="thesis_flow" width="50%">
+<!-- <img src="../images/assign/takehara_thesis3.png" alt="thesis_flow" width="50%"> -->
+<!-- <img src="../images/assign/takehara_thesis4.png" alt="thesis_flow" width="50%"> -->
 
 研究を進める上で必ず論文を書く必要があります。論文を書く上で重要な考え方や授業レポートとの違い、進め方についての座学です．
 
 論文とは、自分の成果を公開し、どのような意味があるのかを他者へ正しく共有するためのものです。
-
 レポートには模範解答があり、教員の目的に沿っているかの確認、授業から何を学んだかをまとめるためのものであり主観的に書かれるものです。それに対して論文は、解答はなく、自分の成果に新規性や有用性があることを示すためのものです。第3者が見ても理解できる内容であり、客観的に書かれる必要があります．
 
 論文を書くためには、いきなり本文を書き始めるのではなく、課題や結果、解決法などの内容の整理、章立てや大まかな内容を先に骨子として作ります。内容が決まったらアドバイスを貰い、それに従って本文を書き、アドバイスを受けて調整するという流れを繰り返します。
 
-使用した資料は[こちら](./index.html?FILE=../public_material/takehara_howtowrite.pdf)
+使用した資料は[howtowrite.pdf](./index.html?FILE=../public_material/howtowrite.pdf)にあります。  
 
 ### コンテナ，Docker
 <img src="../images/assign/oda_container1.png" alt="hv_container"  width="80%">
@@ -124,19 +120,18 @@ ansibleは設定ファイルの変更やソフトウェアのインストール�
 
 研究室のサーバにコンテナを作成し，コンテナ内にnginxを構築，アクセスしてみるという演習を行いました．
 
-使用した資料は[こちら](https://yuyuyusei.github.io/container-learn/)
+使用した資料は[yuyuyusei氏のGitHub.io](https://yuyuyusei.github.io/container-learn/)で公開されています。  
 
 ### Tex(テフ)の使い方
-<img src="../images/assign/goto_tex1.png" alt="tex_title"  width="80%">
+<!-- <img src="../images/assign/goto_tex1.png" alt="tex_title"  width="80%"> -->
 
 <img src="../images/assign/goto_tex2.png" alt="tex_chapter"  width="80%">
 
 
 学術論文を作成する際によく使用されるツールであるTexの使用方法について学び，実際にpdfファイルを作成する演習です．
-
 ファイルを作成するにあたり，ツールのインストールやどのようにファイルを記述していくかの演習を行いました．
 
-使用した資料は[こちら](https://hackmd.io/vNPoCzvzSzO43ccTsQha3A?view)
+使用した資料は[HackMDを使って](https://hackmd.io/vNPoCzvzSzO43ccTsQha3A?view)公開されています。  
 
 # イベント
 
