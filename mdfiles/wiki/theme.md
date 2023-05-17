@@ -68,9 +68,9 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 スライドを [こちら](../public_material/s20g470-IntroResearch.pdf) で公開しています．  
 
 <img src="../images/theme/security_system.png" alt="security_system" width="50%">
-<img src="../images/theme/zeroday_attack.png" alt="zeroday_attack" width="50%">
-<img src="../images/theme/introduction.png" alt="introduction" width="50%">
-<img src="../images/theme/target.png" alt="target" width="50%">
+<!-- <img src="../images/theme/zeroday_attack.png" alt="zeroday_attack" width="50%"> -->
+<!-- <img src="../images/theme/introduction.png" alt="introduction" width="50%"> -->
+<!-- <img src="../images/theme/target.png" alt="target" width="50%"> -->
 
 近年，脆弱性を利用した攻撃が増えており，それらの攻撃はパッチが配布されるまで対策が難しいです．  
 また，個人で保有する機器を大学などの組織内のネットワークに持ち込む「BYOD」を導入する組織も増えています．  
@@ -96,8 +96,8 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 **Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)**
 
-<img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%">
-<img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%">
+<!-- <img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%"> -->
+<!-- <img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%"> -->
 <img src="../images/theme/auto_sec_exec_envs3.png" alt="auto_sec_exec_envs3" width="50%">
 <img src="../images/theme/auto_sec_exec_envs4.png" alt="auto_sec_exec_envs4" width="50%">
 
@@ -122,7 +122,8 @@ The posters used by open campus are published [here](../static/index.html?FILE=.
 The slides used by Master's thesis presentation are published [here](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) (Only Japanese) .
 <!-- markdown-link-check-enable --> 
 
-<img src="../images/theme/protec-kun_00.png" alt="protec-kun_03" width="50%">
+<img src="../images/theme/protec-kun_00.png" alt="protec-kun_00" width="50%">
+<img src="../images/theme/protec-kun_01.png" alt="protec-kun_01" width="50%">
 
 サイバー攻撃の増加や高度化に伴い，「手が動く」実践的なセキュリティ人材が不足しています．  
 本研究では，そのような人材の育成を目的として，体験型セキュリティ演習の1つである「ハードニング演習」に注目しています．  
