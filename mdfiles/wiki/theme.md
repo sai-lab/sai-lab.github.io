@@ -10,12 +10,12 @@
 [セキュリティ保護システム](#セキュリティ保護システム)  
 [BEYOND:脆弱性対策のための​セキュリティ保護システム](#beyond脆弱性対策のための​セキュリティ保護システム)  
 [セキュリティ演習システム(Security Education System)](#セキュリティ演習システム)  
-[DNSサービス/DNSキャッシュポイズニング可視化システム](#dnsサービスdnsキャッシュポイズニング可視化システム)  
 [教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)](#教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム)  
 [試行錯誤しながら自学自習できる体験型セキュリティ演習システム(Security Practice System Enabling Trial and Error)](#試行錯誤しながら自学自習できる体験型セキュリティ演習システム)  
 [ファイルシステム](#ファイルシステム)  
 [バージョン管理機能を持ったファイルシステム](#バージョン管理機能を持ったファイルシステム)
 [最近までの研究](#最近までの研究)  
+[DNSサービス/DNSキャッシュポイズニング可視化システム](#dnsサービスdnsキャッシュポイズニング可視化システム)  
 [機器情報を用いたネットワーク管理システム](#機器情報を用いたネットワーク管理システム)  
 [リンク構造ファイルシステム](#リンク構造ファイルシステム)  
 [NAP-Webを用いた優先アクセス機構](#nap-webを用いた優先アクセス機構)  
@@ -91,15 +91,6 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 <div class="theme-keywords">Security Education, Visualization, Domain Name System(DNS), Lightweight Virtualization, Trial and Error</div>
 
-### DNSサービス/DNSキャッシュポイズニング可視化システム
-
-<img src="../images/theme/vda-ui.png" alt="vda-ui" width="50%">
-
-DNSを標的とした，あるいは利用した攻撃は数多く存在します．  
-すでに対策は施されていますが，未だに新たな攻撃手法が出ていることも事実です．  
-また，こういったサイバー攻撃は実際に目視できず，図表による説明でも通信の順番やデータなどの情報が分かりにくくなってしまいます．  
-そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「[Visual DNS Attack](https://github.com/sai-lab/Visual-DNS-Attack)」を開発しました．  
-これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
 ### 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム
 
@@ -158,6 +149,16 @@ We will contribute to the development of security human resources by developing 
 <img src="../images/theme/yuiha-fs-backup.png" alt="yuiha-fs" width="100%">
 
 # 最近までの研究
+
+### DNSサービス/DNSキャッシュポイズニング可視化システム
+
+<img src="../images/theme/vda-ui.png" alt="vda-ui" width="50%">
+
+DNSを標的とした，あるいは利用した攻撃は数多く存在します．  
+すでに対策は施されていますが，未だに新たな攻撃手法が出ていることも事実です．  
+また，こういったサイバー攻撃は実際に目視できず，図表による説明でも通信の順番やデータなどの情報が分かりにくくなってしまいます．  
+そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「[Visual DNS Attack](https://github.com/sai-lab/Visual-DNS-Attack)」を開発しました．  
+これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
 ## 機器情報を用いたネットワーク管理システム
 
