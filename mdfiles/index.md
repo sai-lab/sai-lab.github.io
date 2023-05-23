@@ -22,7 +22,7 @@
 香川大学によるStaff紹介ページは[こちら](https://www.kagawa-u.ac.jp/kagawa-u_ead/introduction/staff/20697/staff0127/)。  
 研究室紹介のスライド資料は[こちら](public_material/Intro_Saisho-Lab2022.pdf)。  
 
-研究室に御用がある方は、 [contact[at]air.eng.kagawa-u.ac.jp](mailto:contact@air.eng.kagawa-u.ac.jp) に([at]を@に変更して) 御連絡ください。  
+研究室に御用がある方は、 contact[at]air.eng.kagawa-u.ac.jp に([at]を@に変更して) 御連絡ください。  
 
 <!-- ![10F見取り図](images/fetch.png) -->
 <img src="images/map10f.png" alt="10F見取り図" width="50%">
@@ -32,10 +32,10 @@
 新規配属者向けに研究室訪問を実施中です。  
 詳細は[こちら](./wiki/assign.md)。
 
-# メンテナンス情報
+<!-- # メンテナンス情報
 
 8/27~8/29にメンテナンスを行います．
-アクセスできなくなるので，よろしくお願いします．
+アクセスできなくなるので，よろしくお願いします． -->
 
 ---
 <div class="at_work">

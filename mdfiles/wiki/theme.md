@@ -10,12 +10,12 @@
 [セキュリティ保護システム](#セキュリティ保護システム)  
 [BEYOND:脆弱性対策のための​セキュリティ保護システム](#beyond脆弱性対策のための​セキュリティ保護システム)  
 [セキュリティ演習システム(Security Education System)](#セキュリティ演習システム)  
-[DNSサービス/DNSキャッシュポイズニング可視化システム](#dnsサービスdnsキャッシュポイズニング可視化システム)  
 [教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム(Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)](#教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム)  
 [試行錯誤しながら自学自習できる体験型セキュリティ演習システム(Security Practice System Enabling Trial and Error)](#試行錯誤しながら自学自習できる体験型セキュリティ演習システム)  
 [ファイルシステム](#ファイルシステム)  
 [バージョン管理機能を持ったファイルシステム](#バージョン管理機能を持ったファイルシステム)
 [最近までの研究](#最近までの研究)  
+[DNSサービス/DNSキャッシュポイズニング可視化システム](#dnsサービスdnsキャッシュポイズニング可視化システム)  
 [機器情報を用いたネットワーク管理システム](#機器情報を用いたネットワーク管理システム)  
 [リンク構造ファイルシステム](#リンク構造ファイルシステム)  
 [NAP-Webを用いた優先アクセス機構](#nap-webを用いた優先アクセス機構)  
@@ -27,9 +27,19 @@
 
 # 研究テーマ
 
+最所研究室では現在、分散Webシステムやセキュリティの強化に関する研究を行っています。  
+これらは、「快適かつ安全にコンピュータを使う」ための技術です。  
+過去には、ネットワーク機器管理システムやアクセス制御システムに関する研究も行っていました。  
+
+共同研究としては、同コースの [喜田研究室](http://sleepingbeauty.eng.kagawa-u.ac.jp/) とセキュリティに関する研究や、亀井研究室とストレージに関する研究を行っています。  
+
+なお、これらの研究テーマにとらわれずに自分でテーマを設定して研究を行いたい方も歓迎します。  
+並列/分散システム、クライアントサーバシステム、オペレーティングシステム、フォールトトレラント、ゼロデイ攻撃、Container、Virtualization、などが当研究室のキーワードです。  
+詳しいことについては研究室まで足をお運び下さい。  
+
 現在行われている研究や、以前行われていた研究の概要を解説しています。  
 画像をクリックすると拡大表示されます。  
-一部のスライドは [こちら](../static/index.md) で公開しています。   
+一部のスライドは [こちら](../static/index.md) で公開しています。  
 
 ## 負荷分散Webシステム
 
@@ -68,9 +78,9 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 スライドを [こちら](../public_material/s20g470-IntroResearch.pdf) で公開しています．  
 
 <img src="../images/theme/security_system.png" alt="security_system" width="50%">
-<img src="../images/theme/zeroday_attack.png" alt="zeroday_attack" width="50%">
-<img src="../images/theme/introduction.png" alt="introduction" width="50%">
-<img src="../images/theme/target.png" alt="target" width="50%">
+<!-- <img src="../images/theme/zeroday_attack.png" alt="zeroday_attack" width="50%"> -->
+<!-- <img src="../images/theme/introduction.png" alt="introduction" width="50%"> -->
+<!-- <img src="../images/theme/target.png" alt="target" width="50%"> -->
 
 近年，脆弱性を利用した攻撃が増えており，それらの攻撃はパッチが配布されるまで対策が難しいです．  
 また，個人で保有する機器を大学などの組織内のネットワークに持ち込む「BYOD」を導入する組織も増えています．  
@@ -91,22 +101,13 @@ Webサーバへの負荷の増加に対し、クラウドで提供されるサ�
 
 <div class="theme-keywords">Security Education, Visualization, Domain Name System(DNS), Lightweight Virtualization, Trial and Error</div>
 
-### DNSサービス/DNSキャッシュポイズニング可視化システム
-
-<img src="../images/theme/vda-ui.png" alt="vda-ui" width="50%">
-
-DNSを標的とした，あるいは利用した攻撃は数多く存在します．  
-すでに対策は施されていますが，未だに新たな攻撃手法が出ていることも事実です．  
-また，こういったサイバー攻撃は実際に目視できず，図表による説明でも通信の順番やデータなどの情報が分かりにくくなってしまいます．  
-そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「[Visual DNS Attack](https://github.com/sai-lab/Visual-DNS-Attack)」を開発しました．  
-これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
 ### 教育者の負担軽減に向けたセキュリティ演習環境の自動構築システム
 
 **Automatic Construction System for Security Training Environment to Reduce the Burden on Educators)**
 
-<img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%">
-<img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%">
+<!-- <img src="../images/theme/auto_sec_exec_envs1.png" alt="auto_sec_exec_envs1" width="50%"> -->
+<!-- <img src="../images/theme/auto_sec_exec_envs2.png" alt="auto_sec_exec_envs2" width="50%"> -->
 <img src="../images/theme/auto_sec_exec_envs3.png" alt="auto_sec_exec_envs3" width="50%">
 <img src="../images/theme/auto_sec_exec_envs4.png" alt="auto_sec_exec_envs4" width="50%">
 
@@ -123,14 +124,16 @@ In this research, we are developing an automatic construction system for the pra
 ### 試行錯誤しながら自学自習できる体験型セキュリティ演習システム
 
 **Security Practice System Enabling Trial and Error**
-
+<!-- markdown-link-check-disable --> 
 オープンキャンパスにも使用したポスターを [こちら](../static/index.html?FILE=../public_material/poster-2022_CyberEducation.pdf) で公開しています．  
 The posters used by open campus are published [here](../static/index.html?FILE=../public_material/Security_Exercise_System.pdf) .  
 
 修論発表に使用したスライドを [こちら](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) で公開しています．  
 The slides used by Master's thesis presentation are published [here](../static/index.html?FILE=../public_material/s22d451-IntroResearch.pdf) (Only Japanese) .
+<!-- markdown-link-check-enable --> 
 
-<img src="../images/theme/protec-kun_00.png" alt="protec-kun_03" width="50%">
+<img src="../images/theme/protec-kun_00.png" alt="protec-kun_00" width="50%">
+<img src="../images/theme/protec-kun_01.png" alt="protec-kun_01" width="50%">
 
 サイバー攻撃の増加や高度化に伴い，「手が動く」実践的なセキュリティ人材が不足しています．  
 本研究では，そのような人材の育成を目的として，体験型セキュリティ演習の1つである「ハードニング演習」に注目しています．  
@@ -157,6 +160,16 @@ We will contribute to the development of security human resources by developing 
 <img src="../images/theme/yuiha-fs-backup.png" alt="yuiha-fs" width="100%">
 
 # 最近までの研究
+
+### DNSサービス/DNSキャッシュポイズニング可視化システム
+
+<img src="../images/theme/vda-ui.png" alt="vda-ui" width="50%">
+
+DNSを標的とした，あるいは利用した攻撃は数多く存在します．  
+すでに対策は施されていますが，未だに新たな攻撃手法が出ていることも事実です．  
+また，こういったサイバー攻撃は実際に目視できず，図表による説明でも通信の順番やデータなどの情報が分かりにくくなってしまいます．  
+そこで，情報セキュリティ技術の導入教育を目的とした，DNS攻撃の中でも代表的なDNSキャッシュポイズニングを可視化するWebアプリケーションシステム，「[Visual DNS Attack](https://github.com/sai-lab/Visual-DNS-Attack)」を開発しました．  
+これにより，利用者がポイズニングについてより理解すると同時に，DNSの構造的な弱点についても理解すると考えています．  
 
 ## 機器情報を用いたネットワーク管理システム
 

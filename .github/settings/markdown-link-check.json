@@ -5,6 +5,9 @@
 		},
 		{
 			"pattern": "./index.html?FILE="
+		},
+		{
+			"pattern": "../static/index.html?FILE=.*"
 		}
 	]
 }
