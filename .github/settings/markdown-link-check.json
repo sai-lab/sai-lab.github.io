@@ -8,6 +8,9 @@
 		},
 		{
 			"pattern": "../static/index.html?FILE=.*"
+		},
+		{
+			"pattern": "https://www.american-cse.org/*"
 		}
 	]
 }
