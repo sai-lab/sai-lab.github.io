@@ -175,6 +175,8 @@ We will contribute to the development of security human resources by developing 
 
 本研究は[CSCI2021(International Conference on Computational Science and Computational Intelligence)](https://www.american-cse.org/csci2021/)で発表し，[IEEE Exploreで公開](https://ieeexplore.ieee.org/document/9799042)されています．
 
+<img src="../images/theme/sprofiler-research-scope.png" alt="sprofile research scope" width="100%">
+
 # 最近までの研究
 
 ### DNSサービス/DNSキャッシュポイズニング可視化システム
