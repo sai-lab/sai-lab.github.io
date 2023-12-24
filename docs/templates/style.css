@@ -133,10 +133,18 @@ aside ul {
 	padding-top: var(--height-deviation);
 }
 
+/* ページ内リンクずれ回避 */
+.content h1,h2,h3 {
+	clear: both;
+	margin-top: calc(0px - var(--height-deviation));
+	padding-top: var(--height-deviation);
+}
+
 /* 装飾 */
 .content h1 {
-	clear: both;
 	position: relative;
+	/* padding: 20px; */
+	padding-top: calc(var(--height-deviation) + 10px);
 }
 
 .content h1:after {
