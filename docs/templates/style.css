@@ -138,6 +138,7 @@ aside ul {
 	clear: both;
 	margin-top: calc(0px - var(--height-deviation));
 	padding-top: var(--height-deviation);
+	z-index: -64;
 }
 
 /* 装飾 */
