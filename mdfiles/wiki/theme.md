@@ -171,7 +171,7 @@ We will contribute to the development of security human resources by developing 
 一方でパブリッククラウドなど，複数のシステムやサービスを共用する環境では，セキュリテイインシデントを引き起こす可能性があります．  
 これは，コンテナはホストとOSカーネルを共有しているため，コンテナランタイムに特権昇格攻撃の脆弱性が存在する場合，コンテナ内で悪意ある目的のために発行されたシステムコールがホストに波及するためです．  
 対策として，アプリケーションに必要なシステムコールのみを許可するフィルタリングを行うことが有効ですが，発行する全てのシステムコールの把握は困難です．  
-本研究では，アプリケーションの実行ファイルに対する静的解析と，コンテナから発行するシステムコールの動的解析を組み合わせ，フィルタリングルールを自動生成するSprofilerを開発します．  
+本研究では，アプリケーションの実行ファイルに対する静的解析と，コンテナから発行するシステムコールの動的解析を組み合わせ，フィルタリングルールを自動生成するSprofilerを開発しました．  
 
 本研究は[CSCI2021(International Conference on Computational Science and Computational Intelligence)](https://www.american-cse.org/csci2021/)で発表し，[IEEE Exploreで公開](https://ieeexplore.ieee.org/document/9799042)されています．
 
