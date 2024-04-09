@@ -13,12 +13,13 @@
 
 # 業績リスト
 
-最所先生の2001年4月~2021年3月の業績リストです。  
+最所先生の2001年4月~2023年3月の業績リストです。  
 それ以前のものに関しては掲載していません。  
 
 ## 論文
 
-1. R.Shibahara, K.Saisho, “Evaluation of Authentication and Use Identification on Simultaneous Session Limitation Mechanism”, Internation Journal of Digital Information and Wireless Communications(IJDIWC), Vol.9, No.2, pp.113-123, 2019
+1. 亀井仁志, 渡部昌尚, 大野真伯, 末廣紀史, 最所 圭三, ”仮想化を用いた教育基盤システムの TRIM 機能適用検討”, 学術情報処理研究, No.27, pp.89-97, 2023.12
+1. R.Shibahara, K.Saisho, "Evaluation of Authentication and Use Identification on Simultaneous Session Limitation Mechanism", Internation Journal of Digital Information and Wireless Communications(IJDIWC), Vol.9, No.2, pp.113-123, 2019
 1. 米谷雄介, 後藤田中, 北原美里, 小野滋己, 青木有香, 八重樫理人, 藤本憲市, 林敏浩, 今井慈郎, 最所圭三, 喜田弘司, “パターン定義に要する対応期間に基づくセキュリティ製品の妥当性を点検するシステム”,学術情報処理研究, Vol.23, No.1, pp.112-121, 2019
 1. 國枝孝之, 矢部智暉, 末廣紀史, 太田裕士, 米谷雄介, 後藤田中, 林敏浩, 最所圭三, 八重樫理人,“拡張運用プロファイルによる香川大学型IT教卓システム操作のモデル化の実践”,学術情報処理研究, Vol.23, No.1, pp.128-137, 2019
 1. 米谷雄介, 後藤田中, 小野滋己, 青木有香, 宮崎凌大, 八重樫理人, 藤本憲市, 林敏浩, 今井慈郎, 最所圭三, “香川大学での標的型攻撃メール訓練の導入と改善点の検討”, 学術情報処理研究, Vol.22, No. 1, pp.54-63, 2018
@@ -31,6 +32,7 @@
 
 ### 国際会議(査読有り)
 
+1. I.Takehara, M.Ishizuka, H.Kamei, K.Kida, K.Saisho, "Evaluation of Processing Time in Trial-and-Error Function of Security Exercise System for Security Beginners"，Proc. the 2023 World Congress in Computer Science, Computer Engineering, & Applied Computing (CSCE'23), pp.871-876, 2023
 1. T.Iiguni, H.Kamei and K.Saisho, “Sprofiler: Automatic Generating System of Container-Native System Call Filtering Rules for Attack Surface Reduction”, Proc. the 2021 International Conference on Computational Science and Computational Intelligence (CSCI'21), 2021
 1. R.Shibahara, H.Tone and K.Saisho, “Implementation and Evaluation of Simultaneous Session Limitation Mechanism”, Proc. the 5th International Conference on Electronics and Software Science (ICESS2019), pp.24-31, 2019
 1. K.Morigaki and K.Saisho, “Improvement of Load Balancing Method in a Distributed Web System Using DNS”, Proc. the Third International Conference on Electronics and Software Science (ICESS2017), pp.69-73, 2017
@@ -50,6 +52,12 @@
 
 ## 講演
 
+1. 樋口史弥, 竹原一駿, 亀井仁志, 最所圭三, "ファイル毎にスナップショットを作成できるファイルシステムYuihaFSの開発", 情報処理学会研究報告, 2023-OS-159, No.4, pp.1-8, 2023
+1. 増田嶺, 最所圭三, 亀井仁志, 喜田弘司, "画像加工による異常検知モデル学習用データセットの圧縮手法の提案", 第22回情報科学技術フォーラム講演論文集, F-046, Vol.2, pp.497-498, 2023
+1. 上裕樹, 竹原一駿, 喜田弘司, 最所圭三, "サーバ管理演習におけるヒント提示システムの提案", 令和5年度 電気・電子・情報関係学会四国支部連合大会論文集, 17-22, p.241, 2023
+1. 竹原一駿, 上裕樹, 石塚美伶, 亀井仁志, 喜田弘司, 最所圭三, "セキュリティ演習システムにおける試行錯誤機構の実行時間の短縮", 大学ICT推進協議会2023年度年次大会論文集, pp.527-530, 2023
+1. 小林拓実, 竹原一駿, 亀井仁志, 最所圭三, "分散Web システムにおけるTCP バックログを用いた負荷測定機能の開発", 情報処理学会第86回全国大会講演論文集, 6ZA-06, pp.3-303 - 3-304, 2024.3 (学生奨励賞)
+1. 中村友昭, 竹原一駿, 山下俊昭, 宗雪勝也, 小野滋己, 後藤田中, 喜田弘司, 最所圭三, "BEYOND:セキュリティ対策システムの運用手法と脆弱性検知率向上のためのWebUIの開発", 情報処理学会第86回全国大会講演論文集, 5ZC-07, pp.3-531 - 3-532, 2024
 1. 後藤祥仁, 竹原一駿, 亀井仁志, 最所圭三, "攻撃を含む Web アプリケーションの動作を視覚化するシステムの提案", 令和4年度 電気・電子・情報関係学会四国支部連合大会論文集, 16-1, 2022
 1. 石塚美伶, 竹原一駿, 亀井仁志, 喜田弘司, 最所圭三, "教育者の負担軽減に向けたセキュリティ演習環境の自動構築システムの提案", 令和4年度 電気・電子・情報関係学会四国支部連合大会論文集, 16-2, p.159, 2022
 1. 樋口史弥, 竹原一駿, 亀井仁志, 最所圭三, "バージョン管理機能を持つファイルシステムの開発", 令和4年度 電気・電子・情報関係学会四国支部連合大会論文集, 18-16, 2022
