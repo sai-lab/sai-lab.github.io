@@ -64,13 +64,13 @@
 ### 第23期生
 
 - 阿部 真実
+    - [仮想マシンとコンテナを組み合わせた分散 Web システムの開発](../public_material/abstract/2023/18T301.pdf)
 - 上 裕樹
     - [サーバ管理演習における進捗管理機能を備えたヒント提示システムに関する研究](../public_material/abstract/2023/20T303.pdf)
 - 小林 拓実
     - [分散 Web システムのためのTCPバックログと応答時間の分布を用いた負荷監視機能の開発](../public_material/abstract/2023/20T306.pdf)
 - 田中 瑠星
     - [IoTデバイス向けホスト型IDSの開発](../public_material/abstract/2023/20T315.pdf)
-
 
 ### 第22期生
 
